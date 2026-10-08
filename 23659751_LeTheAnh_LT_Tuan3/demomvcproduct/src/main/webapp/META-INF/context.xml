@@ -1,0 +1,12 @@
+<Context>
+    <Resource auth="Container"
+              driverClassName="org.mariadb.jdbc.Driver"
+              maxIdle="10"
+              maxTotal="20"
+              maxWaitMillis="10000"
+              name="jdbc/productdb"
+              password="sapassword"
+              type="javax.sql.DataSource"
+              url="jdbc:mariadb://localhost:3306/products_www"
+              username="root"/>
+</Context>
